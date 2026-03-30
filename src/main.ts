@@ -8,6 +8,7 @@ async function bootstrap() {
   // Habilitar CORS correctamente
   const allowlist = new Set<string>([
     'https://crm-demo-ui-production.up.railway.app',
+    'https://crm-demo-2-ui-production.up.railway.app',
   ]);
 
   app.enableCors({
